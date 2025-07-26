@@ -3,7 +3,6 @@
 # Give your module a name
 name: combos_lead
 build:
-  settings:
-    cmake: .
-    kconfig: Kconfig
-    dts_root: .
+  cmake: .
+  kconfig: Kconfig
+  dts_root: .
