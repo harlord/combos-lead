@@ -1,0 +1,34 @@
+# DT binding for the Combo-Lead module.
+
+title: ZMK Combos (Combo-Lead)
+
+description: Combos container
+
+compatible: "zmk,combos"
+
+child-binding:
+  description: "A combo"
+
+  properties:
+    bindings:
+      type: phandle-array
+      required: true
+    key-positions:
+      type: array
+      required: true
+    key-positions-leader:
+      type: array
+      required: false
+    timeout-ms:
+      type: int
+      default: 50
+    require-prior-idle-ms:
+      type: int
+      default: -1
+    key-positions-first-exclude:
+      type: array
+      required: false
+    slow-release:
+      type: boolean
+    layers:
+      type: array 

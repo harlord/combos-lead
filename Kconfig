@@ -1,0 +1,12 @@
+## Combo-Lead module Kconfig options
+
+menu "Combo-Lead Module"
+
+config COMBOS_LEAD
+    bool "Enable Combo-Lead support"
+    default y
+    help
+      Builds and enables the enhanced combo handler that adds leader-key
+      support, first-key exclusions, slow-release, and related features.
+
+endmenu
