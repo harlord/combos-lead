@@ -9,4 +9,11 @@ config COMBOS_LEAD
       Builds and enables the enhanced combo handler that adds leader-key
       support, first-key exclusions, slow-release, and related features.
 
+config ZMK_COMBO
+    bool "Compatibility alias for legacy combo engine option"
+    select COMBOS_LEAD
+    help
+      Older keymap configurations used CONFIG_ZMK_COMBO.  This alias keeps
+      them building by selecting COMBOS_LEAD automatically.
+
 endmenu
