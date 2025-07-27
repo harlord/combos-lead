@@ -8,6 +8,7 @@ title: ZMK Combos (Combo-Lead)
 description: Combos container with leader-key extensions
 
 compatible: "zmk,combos"
+extend: true
 
 child-binding:
   description: "A combo"
