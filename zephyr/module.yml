@@ -5,4 +5,4 @@ name: combos_lead
 build:
   cmake: .
   kconfig: Kconfig
-  dts_root: .
+  dts_root: dts

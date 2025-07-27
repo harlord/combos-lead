@@ -1,11 +1,13 @@
-# DT binding for the Combo-Lead module.
+# Copyright (c) 2020 The ZMK Contributors
+# SPDX-License-Identifier: MIT
+
+# Override binding for combo nodes that adds leader, first-exclude and slow-release support.
 
 title: ZMK Combos (Combo-Lead)
 
-description: Combos container
+description: Combos container with leader-key extensions
 
 compatible: "zmk,combos"
-extend: true  
 
 child-binding:
   description: "A combo"
