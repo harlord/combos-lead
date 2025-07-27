@@ -1,9 +1,6 @@
-# Delete all unused properties.
+name: combos-lead
 
-# Give your module a name
-name: combos_lead
 build:
-  cmake: .
-  kconfig: Kconfig
-  settings:
-    dts_root: .
+  kconfig: Kconfig       # Kconfig is required, keep this line
+
+dts_root: dts      
