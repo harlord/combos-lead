@@ -5,6 +5,7 @@ title: ZMK Combos (Combo-Lead)
 description: Combos container
 
 compatible: "zmk,combos"
+extend: true  
 
 child-binding:
   description: "A combo"
